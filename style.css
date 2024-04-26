@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+  text-decoration: none;
+}
+
+.menu li {
+  color: #505f98;
+  font-size: 14px;
+}
+
+ul {
+  padding: 0;
+}
+
+p,
+li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #505f98;
+  font-size: 16px;
+}
+
+p {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #37447e;
+  font-size: 26px;
+}
+
+.Buy {
+  background-color: #111b47;
+  color: white;
+  width: 160px;
+  height: 26px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+
+button:hover {
+  transition: 1s;
+  color: white;
+  background-color: black;
+}
+
+.AboutUsCompany_learn-btn:hover {
+  transition: 0.5s;
+  color: white;
+  background-color: #505f98;
+}
+
+.FirstBlock {
+  background-image: url(Img/designer_1.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 129vh;
+}
+
+.AboutUsCompany_purch-btn {
+  background-color: #111b47;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+
+.AboutUsCompany_learn-btn {
+  background-color: white;
+  color: #111b47;
+  padding: 8px 55px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 50px;
+  color: #091133;
+}
+
+h2 {
+  color: #091133;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.AboutUsCompany {
+  margin-left: 0;
+  width: 50%;
+  padding: 10px;
+  margin-top: 285px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.desciption {
+  line-height: 2;
+  font-size: 18px;
+}
+
+.AboutUsCompany_buttons {
+  margin-top: 69px;
+}
+
+.AboutUsCompany_purch-btn {
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.miniAboutP {
+  color: #5d6970;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.miniAboutInfo {
+  column-count: 2;
+  column-gap: 30px;
+  display: flex;
+}
+
+.about {
+  margin-top: 105px;
+  margin-bottom: 105px;
+  column-count: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.miniAboutTxt {
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+.LightFastPowerful {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.LightFastPowerful2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 220px;
+}
+
+.LightFastPowerful3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 220px;
+}
+
+.AboutUsCompany_purch-btn2 {
+  background-color: #111b47;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  margin-top: 25px;
+}
+
+.LightFastPowerful_img {
+  margin-right: 270px;
+}
+
+.LightFastPowerful_img2 {
+  margin-right: 200px;
+}
+
+.LightFastPowerful_img3 {
+  margin-right: 300px;
+}
+
+.logo2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #37447e;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.Contact-text {
+  padding-top: 235px;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+.Contact {
+  background-image: url(Img/Rectangle.svg);
+  background-size: 100%;
+  margin-top: 200px;
+}
+
+.LightFastPowerfulP {
+  color: #6f7cb2;
+  font-size: 16px;
+  width: 1000%;
+}
+
+.P-Design {
+  color: #37447e;
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+
+.purchaseNowP {
+  margin-bottom: 0px;
+}
+
+.AboutUsCompany_purch-btn3 {
+  background-color: #111b47;
+  color: white;
+  padding: 10px 60px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  margin-top: 15px;
+}
+
+.Contact-text-p {
+  color: #6f7cb2;
+  font-size: 16px;
+}
+
+.footer {
+  background-size: 100%;
+  background-color: #e7ecff;
+}
+
+.footer-textFirst {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 41px;
+}
+
+.footer-btn {
+  background-color: #111b47;
+  color: white;
+  width: 109px;
+  height: 26px;
+  border-radius: 2px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo-footer {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #37447e;
+  font-size: 26px;
+  margin: 0px;
+}
+
+.copyright {
+  margin: 0px;
+}
+
+.footer-last {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 30px;
+}
+
+.icons:hover {
+  transition: 0.5s;
+  color: white;
+  scale: 1.5;
+}
+
+.icons:active {
+  scale: 0.8;
+  transition: 0.3;
+}
+
+.svg-footer:hover path {
+  fill: red;
+}
+
+.svg-footer-icons-fb:hover path {
+  fill: blue;
+}
+
+.svg-footer-icons-in:hover path {
+  fill: #5353ec;
+}
+
+.svg-footer-icons-tw:hover path {
+  fill: #00acee;
+}
+
+.svg-footer-icons-inst:hover path {
+  fill: #ff00ff;
+}
